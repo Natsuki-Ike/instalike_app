@@ -1,7 +1,8 @@
 <div class="center jumbotron top_page_box">
   <%= image_tag("collage_photocat.jpg", class: "top_page_picture", alt: "Collage pthoto", height: "500px") %>
-  <div class="top_page_form">
-    <%= image_tag("Instalike_logo.jpg", class: "top_page_logo", alt: "Instalike logo") %>
-    form tag
-  </div>
+  <session class="top_page_form">
+    <ul>
+      <li><%= image_tag("Instalike_logo.jpg", class: "top_page_logo", alt: "Instalike logo") %></li>
+      <li><%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %></li>
+  </session>
 </div>
